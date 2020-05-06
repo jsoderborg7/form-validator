@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -19,6 +23,15 @@ h2{
   flex-direction: column;
   width: 70%;
   padding: 1%;
+}
+
+.form-control small{
+  color: red;
+  visibility: hidden;
+}
+
+.form-control.error small{
+  visibility: visible;
 }
 
 label{

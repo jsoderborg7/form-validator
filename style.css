@@ -25,6 +25,14 @@ h2{
   padding: 1%;
 }
 
+.form-control.error input{
+  border-color: red;
+}
+
+.form-control.success input{
+  border-color: green;
+}
+
 .form-control small{
   color: red;
   visibility: hidden;
